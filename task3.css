@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    background-color: black;
+    color: white;
+}
+
+.cards{
+    display: flex;
+    gap: 1px;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.card-1{
+    background: linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0)), url(roksolana-zasiadko-aSCihnn25Jc-unsplash.jpg);
+}
+
+.card-2{
+    background: linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0)), url(roksolana-zasiadko-i07ss4dGzIo-unsplash.jpg);
+}
+
+.card-3{
+    background: linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0)), url(rita-ox-eH5gAM2X2wQ-unsplash.jpg);
+}
+
+
+.card-4{
+    background: linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0)), url(annie-spratt-38yKQLL11d8-unsplash.jpg);
+}
+
+
+.card{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    flex: 1;
+    gap: 16px;
+    background-size: cover;
+    transition: 0.3s;
+}
+
+.card:hover{
+    transform: scale(105%);
+    z-index: 1;
+    position: relative;
+}
+
+h3{
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-size: 54px;
+}
+
+h4{
+    font-family: "Inter Tight", sans-serif;
+    font-weight: 100;
+    font-size: 12px;
+    opacity: 0.7;
+}
